@@ -12,6 +12,6 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     console.log("Receive message: " + request.message);
     if (request.message === "qiang") {
         var oDate = new Date();
-        setTimeout(qiang, (59 - oDate.getSeconds()) * 1000 + 1000 - oDate.getMilliseconds() - request.timeout * 10);
+        setTimeout(qiang, (59 - oDate.getSeconds()) * 1000 + 1000 - oDate.getMilliseconds() - request.timeout * 20);
     }
 });

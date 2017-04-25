@@ -1,5 +1,5 @@
 var url_qiang = "https://pro.m.jd.com/mall/active/CFoVuLtk8ykyG5f59EfdpQyhcmM/index.html";
-var g_count = 20;
+var g_count = 30;
 
 function isUrlMatch(url1, url2) {
     if (url1 !== undefined && url2 !== undefined) {
